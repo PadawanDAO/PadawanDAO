@@ -19,7 +19,7 @@ code {
 }
 
 .card-body {
-  margin-top: -15%;
+  margin-top: -10%;
 }
 
 .rowC{
@@ -28,8 +28,15 @@ code {
 
 }
 .rectangle {
-  height: auto;
-  width: 100px;
-  background-color: #555;
-  border-radius: 40%;
+  background-color: black;
+  color: white;
+  height: 2rem;
+  width: 70rem;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.p {
+  width: auto;
 }
