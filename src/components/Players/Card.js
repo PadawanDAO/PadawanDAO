@@ -8,6 +8,7 @@ export class Player extends Component {
         <Card.Header style={{ height: "7rem", padding: "0" }}>
           <Card.Img
             variant="top"
+            src="https://pbs.twimg.com/media/DTwnS_zVMAAZLMe.jpg:large"
           />
         </Card.Header>
         <div className="card-body">
