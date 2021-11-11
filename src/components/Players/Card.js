@@ -4,21 +4,25 @@ import { Card } from "react-bootstrap";
 export class Player extends Component {
   render() {
     return (
-      <div className="card">
-        <Card style={{ width: "18rem" }}>
-          <Card.Body>
-            <Card.Title>Padawan Card</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
-            </Card.Subtitle>
-            <Card.Text>
-              lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
-          </Card.Body>
+      
+        <Card style={{height: "25rem", width: "19rem" }}>
+
+        <Card.Header style={{height: "7rem", padding: "0"}}>
+        <Card.Img variant="top"  src="https://pbs.twimg.com/media/DTwnS_zVMAAZLMe.jpg:large" />
+      
+        </Card.Header>
+        <div className="card-body">
+        <Card.Body className="text-center" >
+        <Card.Img  className="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SVG_Circle.svg/1024px-SVG_Circle.svg.png" />
+        <Card.Title>Padawan Name</Card.Title>
+        </Card.Body>  
+        </div>
+        
+
+           
+          
         </Card>
-      </div>
+      
     );
   }
 }
