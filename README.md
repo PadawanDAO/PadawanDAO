@@ -4,9 +4,6 @@
 
 This will be the main dashboard for the DAO, it is NOT finished and has lot's to be done :)
 
-## Hosted version
-
-dao.padawandao.com
 
 ## Join our community
 
