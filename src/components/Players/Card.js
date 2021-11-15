@@ -1,17 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
-import styled from "styled-components";
-
-const Tag = styled.div`
-  background-color: black;
-  color: white;
-  font-size: 14px;
-  display: inline;
-  width: auto;
-  padding: 4px 5px;
-  border-radius: 5px;
-  margin: 10px 5px;
-`;
+import Tag from "./Tag";
 
 export class Player extends Component {
   render() {
