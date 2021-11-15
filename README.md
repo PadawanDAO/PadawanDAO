@@ -13,6 +13,9 @@ https://discord.gg/HM97NeDJ5P
 
 In the project directory, you can run:
 
+### 'yarn'
+Initalizes all neccesary packages.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
