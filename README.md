@@ -13,7 +13,7 @@ https://discord.gg/HM97NeDJ5P
 
 In the project directory, you can run:
 
-### 'yarn'
+### `yarn`
 Initalizes all neccesary packages.
 
 ### `yarn start`
