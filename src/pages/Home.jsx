@@ -7,7 +7,7 @@ function Home() {
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-5">
-
+            
             <div className="rowC">
               <div className="padding: 10rem">
                 <Player />
