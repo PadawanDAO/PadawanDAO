@@ -22,11 +22,11 @@ code {
   margin-top: -10%;
 }
 
-.rowC{
-  display:flex; flex-direction:row; 
-  
-
+.rowC {
+  display: flex;
+  flex-direction: row;
 }
+
 .rectangle {
   background-color: black;
   color: white;
@@ -37,6 +37,33 @@ code {
   border-radius: 5px;
   margin: 10px 0px;
 }
+
 .p {
   width: auto;
 }
+
+.navbar {
+  background-color: #000000;
+  /* Fix this */
+  height: 80px;
+}
+
+.bg_image {
+  background-image: url("./assets/logos/bg.png");
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  background: #000;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@800&display=swap");
