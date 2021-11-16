@@ -19,14 +19,14 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/players" activeStyle>
+          <NavLink to="/" activeStyle>
+            Home
+          </NavLink>
+          <NavLink to="/padawans" activeStyle>
             Padawans
           </NavLink>
           <NavLink to="/proposals" activeStyle>
             Projects
-          </NavLink>
-          <NavLink to="/" activeStyle>
-            Home
           </NavLink>
         </NavMenu>
         <NavBtn>
