@@ -46,20 +46,20 @@ export class Player extends Component {
         </div>
 
         <Card.Body style={{ marginTop: "-20%" }}>
-          <Card.Text >About</Card.Text>
+          <Card.Text><b>About</b></Card.Text>
           <p style={{ marginTop: "-7%" }}>
             Lng elit ut aliquam, purus sit amet luctus venenatis, lectus magna
             fringilla urna, porttitor rhoncus dolor purus non enim praesent
             elementum facilisis{" "}
           </p>
 
-          <Card.Text>Skills</Card.Text>
+          <Card.Text><b>Skills</b></Card.Text>
 
           <Tag>React</Tag>
           <Tag>Figma</Tag>
           <Tag>Solidity</Tag>
 
-          <Card.Text>Socials</Card.Text>
+          <Card.Text><b>Socials</b></Card.Text>
 
           <Tag>Twitter</Tag>
           <Tag>Metamask</Tag>
