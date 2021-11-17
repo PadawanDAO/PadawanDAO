@@ -28,6 +28,9 @@ const Navbar = () => {
           <NavLink to="/proposals" activeStyle>
             Projects
           </NavLink>
+          <NavLink to="/donate" activeStyle>
+            Donate
+          </NavLink>
         </NavMenu>
         <NavBtn>
           <Connect />
