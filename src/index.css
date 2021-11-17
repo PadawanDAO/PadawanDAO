@@ -13,13 +13,14 @@ code {
 }
 
 .image {
-  width: 34%;
+  width: 28%;
+  margin-right: 100%;
   height: auto;
   /* margin: 0 auto; */
 }
 
 .card-body {
-  margin-top: -10%;
+  margin-top: -12%;
 }
 
 .rowC {

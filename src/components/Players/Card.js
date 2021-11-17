@@ -16,46 +16,56 @@ const Tag = styled.div`
 export class Player extends Component {
   render() {
     return (
-      <Card style={{ height: "auto", width: "19rem" }}>
-        <Card.Header style={{ height: "4rem", padding: "0" }}>
+      <Card style={{ height: "31rem", width: "20rem", padding: "0%" }}>
+        <Card.Header style={{ height: "auto", padding: "0" }}>
           <Card.Img
             variant="top"
-            src="https://pbs.twimg.com/media/DTwnS_zVMAAZLMe.jpg:large"
+            style={{ height: "5rem" }}
+            src="https://image.shutterstock.com/image-photo/grunge-spaceship-interior-black-background-260nw-1210128169.jpg"
           />
         </Card.Header>
         <div className="card-body">
-          <Card.Body className="text-center">
+          <Card.Body style={{ textAlign: "center", padding: "0%" }}>
             <Card.Img
               className="image"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SVG_Circle.svg/1024px-SVG_Circle.svg.png"
+              src="https://www.coachcarson.com/wp-content/uploads/2018/09/Chad-Profile-pic-circle.png"
             />
-            <Card.Title>Padawan Name</Card.Title>
           </Card.Body>
+          <Card.Title style={{ textAlign: "center", marginTop: "-10%" }}>
+            Padawan Name
+          </Card.Title>
+          <Card.Text style={{ color: "red", fontSize: "10px", textAlign: "center", marginTop: "-5%"}}>
+          EST (GMT -5:00)
+          </Card.Text>
+
+          
+          <Tag>Lisbon Padawan</Tag>
+          <Tag>Core Team</Tag>
+
+
         </div>
 
-      <Card.Body>
-        <Card.Text>About</Card.Text>
-        <p>loorem Ipsum is simply dummy text of the printing and typesetting
-              industry.  an u </p>
+        <Card.Body style={{ marginTop: "-20%" }}>
+          <Card.Text >About</Card.Text>
+          <p style={{ marginTop: "-7%" }}>
+            Lng elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+            fringilla urna, porttitor rhoncus dolor purus non enim praesent
+            elementum facilisis{" "}
+          </p>
 
-        <Card.Text>Member of</Card.Text>
+          <Card.Text>Skills</Card.Text>
 
-        <Tag>PadawanDAO</Tag>
-        <Tag>Metacartel</Tag>
-        
-        <Tag>TKS</Tag>
+          <Tag>React</Tag>
+          <Tag>Figma</Tag>
+          <Tag>Solidity</Tag>
 
-        <Card.Text>Skills</Card.Text>
+          <Card.Text>Socials</Card.Text>
 
-        
-        <Tag>React</Tag>
-        <Tag>Figma</Tag>
-        <Tag>Vue.js</Tag>
-        <Tag>Python</Tag>
-
-      </Card.Body>
-
-
+          <Tag>Twitter</Tag>
+          <Tag>Metamask</Tag>
+          <Tag>Discord</Tag>
+          <Tag>Redit</Tag>
+        </Card.Body>
       </Card>
     );
   }
