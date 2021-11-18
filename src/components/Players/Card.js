@@ -16,7 +16,7 @@ const Tag = styled.div`
 export class Player extends Component {
   render() {
     return (
-      <Card style={{ height: "31rem", width: "20rem", padding: "0%" }}>
+      <Card style={{ height: "31rem", width: "20rem", padding: "0%", margin: "1rem" }}>
         <Card.Header style={{ height: "auto", padding: "0" }}>
           <Card.Img
             variant="top"
