@@ -70,7 +70,7 @@ export class Player extends Component {
             <b>Skills</b>
           </Card.Text>
 
-          <div style={{ paddingBottom: "10px", marginLeft: "-5px",marginTop:"-5px" }}>
+          <div style={{ paddingBottom: "10px", marginLeft: "-5px",marginTop:"-7px" }}>
             <Tag>React</Tag>
             <Tag>Figma</Tag>
             <Tag>Solidity</Tag>
@@ -80,7 +80,7 @@ export class Player extends Component {
             <b>Socials</b>
           </Card.Text>
 
-          <div style={{ paddingBottom: "10px", marginLeft: "-5px" }}>
+          <div style={{ paddingBottom: "10px", marginLeft: "-5px",marginTop:"-7px" }}>
             <Tag>Twitter</Tag>
             <Tag>Metamask</Tag>
             <Tag>Discord</Tag>
