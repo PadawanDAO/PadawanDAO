@@ -16,7 +16,14 @@ const Tag = styled.div`
 export class Player extends Component {
   render() {
     return (
-      <Card style={{ height: "31rem", width: "20rem", padding: "0%", margin: "1rem" }}>
+      <Card
+        style={{
+          height: "31rem",
+          width: "20rem",
+          padding: "0%",
+          margin: "1rem",
+        }}
+      >
         <Card.Header style={{ height: "auto", padding: "0" }}>
           <Card.Img
             variant="top"
@@ -34,37 +41,51 @@ export class Player extends Component {
           <Card.Title style={{ textAlign: "center", marginTop: "-10%" }}>
             Padawan Name
           </Card.Title>
-          <Card.Text style={{ color: "red", fontSize: "10px", textAlign: "center", marginTop: "-5%"}}>
-          EST (GMT -5:00)
+          <Card.Text
+            style={{
+              color: "red",
+              fontSize: "10px",
+              textAlign: "center",
+              marginTop: "-5%",
+            }}
+          >
+            EST (GMT -5:00)
           </Card.Text>
-
-          
-          <Tag>Lisbon Padawan</Tag>
-          <Tag>Core Team</Tag>
-
-
+          <div style={{marginBottom:"20px"}}>
+            <Tag>Lisbon Padawan</Tag>
+            <Tag>Core Team</Tag>
+          </div>
         </div>
 
         <Card.Body style={{ marginTop: "-20%" }}>
-          <Card.Text><b>About</b></Card.Text>
+          <Card.Text>
+            <b>About</b>
+          </Card.Text>
           <p style={{ marginTop: "-7%" }}>
             Lng elit ut aliquam, purus sit amet luctus venenatis, lectus magna
             fringilla urna, porttitor rhoncus dolor purus non enim praesent
             elementum facilisis{" "}
           </p>
+          <Card.Text>
+            <b>Skills</b>
+          </Card.Text>
 
-          <Card.Text><b>Skills</b></Card.Text>
+          <div style={{ paddingBottom: "10px", marginLeft: "-5px",marginTop:"-7px" }}>
+            <Tag>React</Tag>
+            <Tag>Figma</Tag>
+            <Tag>Solidity</Tag>
+          </div>
 
-          <Tag>React</Tag>
-          <Tag>Figma</Tag>
-          <Tag>Solidity</Tag>
+          <Card.Text>
+            <b>Socials</b>
+          </Card.Text>
 
-          <Card.Text><b>Socials</b></Card.Text>
-
-          <Tag>Twitter</Tag>
-          <Tag>Metamask</Tag>
-          <Tag>Discord</Tag>
-          <Tag>Redit</Tag>
+          <div style={{ paddingBottom: "10px", marginLeft: "-5px",marginTop:"-7px" }}>
+            <Tag>Twitter</Tag>
+            <Tag>Metamask</Tag>
+            <Tag>Discord</Tag>
+            <Tag>Redit</Tag>
+          </div>
         </Card.Body>
       </Card>
     );
